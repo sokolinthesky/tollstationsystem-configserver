@@ -11,8 +11,6 @@ spring:
   cloud:
     config:
       server:
-        encrypt:
-          enabled: false
         git:
           uri: https://github.com/sokolinthesky/cloudconfig-wa-tolls
           search-paths:
